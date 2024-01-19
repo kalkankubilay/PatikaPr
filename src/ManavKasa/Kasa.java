@@ -7,11 +7,11 @@ public class Kasa {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Manava hoşgeldiniz fiyatlar şöyledir(kg); ");
-        System.out.println("Armut 2,14 tl\n" +
-                "Elma 3,67 tl\n" +
-                "Domates 1,11 tl\n" +
-                "Muz 0,95 tl\n" +
-                "Patlıcan 5,00 tl\n");
+        System.out.println("Armut 2,14 tl" +
+                "Elma 3,67 tl" +
+                "Domates 1,11 tl" +
+                "Muz 0,95 tl" +
+                "Patlıcan 5,00 tl");
 
         double armut = 2.14;
         double elma = 3.67;
