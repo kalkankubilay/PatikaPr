@@ -9,8 +9,8 @@ public class KDV {
         System.out.print("Kdv hesaplanıcak tutarı giriniz: ");
         double tutar = scanner.nextDouble();
 
-        double kdvTutarı = (tutar*18)/100;;
-        double kdvliTutar = tutar + kdvTutarı;
+        double kdvTutari = (tutar*18)/100;
+        double kdvliTutar = tutar + kdvTutari;
 
         System.out.print("KDV'li tutar: " + kdvliTutar);
 
