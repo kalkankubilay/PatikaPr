@@ -13,11 +13,11 @@ public class HesapM {
 
         System.out.print("İşlem Seçiniz:");
         System.out.println("***** İşlemler *****");
-        System.out.println("Toplama için 1'e\n" +
-                "Çıkarma için 2'ye\n" +
-                "Çarpma için 3'e\n" +
-                "Bölme için 4'e \n" +
-                "Çıkış için 0'ya basınız.");
+        System.out.println("Toplama için 1'e");
+        System.out.println("Çıkarma için 2'ye");
+        System.out.println("Çarpma için 3'e");
+        System.out.println("Bölme için 4'e");
+        System.out.println("Çıkış için 0'ya basınız.");
         int islemler = scanner.nextInt();
 
         switch (islemler){
