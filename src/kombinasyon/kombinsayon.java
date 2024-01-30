@@ -8,7 +8,7 @@ public class kombinsayon {
         int totaln = 1;
         int totalr =1;
         int totala = 1;
-        int result = 0;
+        int result;
 
         System.out.print("n değeri giriniz: ");
         int n = scanner.nextInt();
