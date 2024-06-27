@@ -1,6 +1,5 @@
 package GelismisHesapMakinesi;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class HesapMakinasi {
@@ -41,7 +40,7 @@ public class HesapMakinasi {
                 System.out.println("Çarpma işlemi sonucu: "+carpmaIslemi(ilkDeger,ikinciDeger));
                 break;
             case 4:
-                System.out.println("Bölem işlemi sonucu: "+bölmeIslemi(ilkDeger,ikinciDeger));
+                System.out.println("Bölem işlemi sonucu: "+ bolmeIslemi(ilkDeger,ikinciDeger));
                 break;
             case 5:
                 System.out.println("Üs hesaplama sonucu: "+usAlmaIslemi(ilkDeger,ikinciDeger));
@@ -71,7 +70,7 @@ public class HesapMakinasi {
     public static int carpmaIslemi(int a, int b) {
         return a * b;
     }
-    public static double bölmeIslemi(int a, int b) {
+    public static double bolmeIslemi(int a, int b) {
         if (b==0){
             System.out.println("Bölen 0 olamaz.");
             return 0;
